@@ -62,7 +62,7 @@ $(document).ready(() => {
       for (let educate of education) {
         startday = new Date(educate.start_date)
         if (educate.end_date == null) {
-          endday = ''
+          formattedEndDay = ''
         } else {
           endday = new Date(educate.end_date)
         }
